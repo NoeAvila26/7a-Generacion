@@ -1,0 +1,51 @@
+/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  font-family: "Lato";
+  color: white;
+  background-color: #181f2a;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+
+
+#imagen{
+  background-color:  #181f2a;
+  
+}
+
+#text{
+  background-color:  #181f2a;
+}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1352px;
+}
+}
+
+#color-blue{
+  background-color: #202a3c;
+}
+
+#color-blue1{
+  background-color: #202a3c;
+}
+
+#color-blue2{
+  background-color: #202a3c;
+}
+
+#profile1{
+  height: 60px;
+
+}
+
+#profile2{
+  height: 60px;
+}
+
+
+
+#profile3{
+  height: 60px;
+}
