@@ -5,7 +5,7 @@
 
 
 
-//metodo 1
+// metodo 1
 
 createdKoderObject = (name,lastName,age,telephoneNumber) => {
     let koderObject = {name,lastName,age,telephoneNumber}
@@ -30,18 +30,19 @@ createdKoderObeject()
 
 //metodo3
 
-const createdKoderObeject = () => {
-let koderObeject{
-  name:",
-  lastName:",
-  age:",
-  telephoneNumber:"
+const createdKoderObject = (name,lastName,age,telephoneNumber) => {
+let koderObject={
+  name,
+  lastName,
+  age,
+  telephoneNumber,
 };
-for (prop in koderObeject) {
-  let pro = prompt(`ingrese el ${prop} del objeto`)
-  koderObeject[prop] = pro;
+for (prop in koderObject) {
+  let prop = prompt(`ingrese el ${prop} del objeto`)
+  koderObject[prop] = prop;
 
 }
-console.log(koderObeject);
+console.log(koderObject);
 
 }
+createdKoderObeject()
