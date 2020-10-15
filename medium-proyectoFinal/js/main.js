@@ -138,9 +138,11 @@ const createdPostDb = (postObject) => {
 
 const getPostDb = () => {
     $.ajax({
-        url: "https://javascript-ajax-d0ce6.firebaseio.com/superTeam/posts/.json",
+        url: "http://localhost:8083/posts",
         method: "GET",
         success: (response) => { 
+            console.log('response')
+            console.log(response)
             addPostToArray(response)
             printPosts(arrayPost);
             console.log(response)
